@@ -1,0 +1,15 @@
+{
+  "name": "qr-maker",
+  "version": "1.0.0",
+  "description": "qr code maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web" : "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "aditya gupta",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
